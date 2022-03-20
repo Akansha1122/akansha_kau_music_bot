@@ -1,0 +1,59 @@
+{
+    "name": "Music Bot",
+    "description": "Telegram bot for Streaming  Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
+    "logo": "https://telegra.ph/file/925c322768885257bf203.jpg",
+    "keywords": [
+        "pytgcalls",
+        "telegram bot",
+        "pyrogram"
+    ],
+    "website": "https://t.me/LGCY_OFFICIAL",
+    "repository": "https://github.com/LgcyAlex/LGCY_M.V_VC_Player",
+    "success_url": "https://t.me/lgcyalex",
+    "env": {
+        "API_ID": {
+            "description": "your API_ID from my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "your API_HASH from my.telegram.org",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "your bot token from @BotFather",
+            "required": true
+        },
+        "SESSION_NAME": {
+            "description": "fill with the pyrogram String Session",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "list of user ids to be added to sudo member list, or just fill with your id",
+            "required": true
+        },
+        "ALIVE_NAME": {
+            "description": "fill with your telegram account nickname/name",
+            "required": false,
+            "value": "ŁGcY・Music Bot"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+    }
