@@ -8,7 +8,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/LGCY_OFFICIAL",
-    "repository": "https://github.com/LgcyAlex/LGCY_M.V_VC_Player",
+    "repository": "https://github.com/LgcyAlex/LGCY_ALEX_VC_Player",
     "success_url": "https://t.me/lgcyalex",
     "env": {
         "API_ID": {
@@ -23,6 +23,18 @@
             "description": "your bot token from @BotFather",
             "required": true
         },
+        "BOT_USERNAME": {
+            "description": "your bot username from @BotFather",
+            "required": false
+        },
+        "BOT_NAME": {
+            "description": "fill with your bot name from @BotFather",
+            "required": false
+        },
+        "ASSISTANT_NAME": {
+            "description": "fill with the assistant username account without @",
+            "required": false
+        },
         "SESSION_NAME": {
             "description": "fill with the pyrogram String Session",
             "required": true
@@ -30,6 +42,21 @@
         "SUDO_USERS": {
             "description": "list of user ids to be added to sudo member list, or just fill with your id",
             "required": true
+        },
+        "GROUP_SUPPORT": {
+            "description": "if you have group, then fill the group username here without @",
+            "required": false,
+            "value": "LGCY_OFFICIAL"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "if you have channel, then fill the channel username here without @",
+            "required": false,
+            "value": "LGCY_OFFICIALYT"
+        },
+        "OWNER_NAME": {
+            "description": "fill with your telegram account username without @",
+            "required": false,
+            "value": "LGcY・ALEX"
         },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
