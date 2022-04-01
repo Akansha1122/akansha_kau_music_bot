@@ -42,14 +42,5 @@
 <a href="https://dashboard.heroku.com/new?template=https://github.com/LgcyAlex/LGCY_M.V_VC_Player"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
 
 
-
-
-
-
-# Special Thanks
-- [Sunil](https://t.me/Sushil8xop)
-- [Group](https://t.me/Clan8Xofficial)
-
-
 ### Support & Updates 
 <a href="https://t.me/LGCY_OFFICIAL"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> 
